@@ -9,7 +9,16 @@
   - center
     - main head(지웅)
     - main list(찬우)
+     - div class (repository list)
+      - p
+        - span class(left), img id = folder icon, img id = file icon
+        - span class(center)
+        - span classs(right)
+      - p class(active)
     - main contents(찬우)
+      - div class(content show)
+        - p class(content head), img id = markdown icon
+        - p class(content)
   - side bar(소연)
 
 - footer(지혜)
