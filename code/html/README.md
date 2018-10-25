@@ -4,6 +4,11 @@
 <p> 반드시 지정된 작업영역 내에서 작업해주시길 바랍니다. 코드 내에 주석 처리된 영역 아래에서 작업하시면 됩니다.</p>
 
 - header(지혜)
+ - div class (header)
+  - svg
+  - div class (search_area)
+  - div class (top_menu)
+  - div class (login_area)
 
 - main
   - center
