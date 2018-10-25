@@ -33,3 +33,8 @@
   - side bar(소연)
 
 - footer(지혜)
+  - div class (footer)
+   - ul
+     - li class (list_line)
+   - svg
+   - ul
