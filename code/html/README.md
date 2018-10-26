@@ -6,7 +6,8 @@
 - header(지혜)
   - div class (header)
    - svg
-   - div class (search_area)
+   - div class (search_button)
+   - div class (search_input)
    - div class (top_menu)
      - ul (menu_style)
        - li (header_menu)
