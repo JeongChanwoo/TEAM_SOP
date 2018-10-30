@@ -39,6 +39,17 @@
         - p class(content head), img id = markdown icon
         - p class(content)
   - side bar(소연)
+    - table class(top_table)
+      - div class(code_activity)
+      - div class(table_middle)
+      - div class(table_bottom)
+    - div class(middle)
+      - p class(middle_title)
+      - table class(middle_address)
+      - p class(middle_info)
+    - div class(bottom)
+      - p class(bottom_clone)
+      - p class(bottom_zip)
 
 - footer(지혜)
   - div class (footer)
