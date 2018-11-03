@@ -29,15 +29,15 @@
         - div class (Ryu_commit right button)
     - main list(찬우)
      - div class (repository list)
-      - p
-        - span class(left), img id = folder icon, img id = file icon
-        - span class(center)
-        - span classs(right)
-      - p class(active)
+      - table class(repo_branch_status)
+        - tr class(repo_branch_status)
+        - tr class(repo_upper_move)
+        - tr class(repo_user_status)
+        - tr class(repo_list)
     - main contents(찬우)
-      - div class(content show)
-        - p class(content head), img id = markdown icon
-        - p class(content)
+      - div class(content_show)
+        - div class(content_head)
+        - div class(content)
   - side bar(소연)
     - table class(top_table)
       - div class(code_activity)
