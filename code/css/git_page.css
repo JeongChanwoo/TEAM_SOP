@@ -44,11 +44,11 @@ div.main{
 	align-content:flex-start;
 }
 /* 상단 */
-div.Ryu_user tr th{
+div.user_menu tr th{
   display: inline;
   padding: 40px;
 }
-div.Ryu_user\sstatus{
+div.user_status{
   background-color : #F5F5F5;
 }
 /* 리스트 부분 */
