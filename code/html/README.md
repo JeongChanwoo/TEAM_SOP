@@ -5,7 +5,7 @@
 
 - header(지혜)
    - div class (header)
-    - svg
+    - div class (header-logo)
     - div class (search_button)
     - div class (search_input)
     - div class (top_menu)
@@ -55,6 +55,6 @@
   - div class (footer)
    - ul class (list_style)
      - li class (list_line)
-   - svg
+   - div class (footer-logo)
    - ul class (list_style)
      - li class (list_line)

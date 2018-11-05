@@ -13,24 +13,39 @@ div.header{
 	flex-direction:row;
 	align-items : flex-start;
 	align-content:flex-start;
-  height : 10%;
+  height : 6%;
   width : 100%;
   text-align: : center;
+  background-color: #EDF0F3;
+  border-bottom: 2px solid #E8E9EB;
 	/* height: 100% */
 }
+
+div.header-logo{
+  margin: 10px;
+}
+
 div.top_menu ul li{
   display: inline;
   padding: 10px;
+  font-weight: bold;
 }
+
 div.search_button{
-  margin: 20px;
+ margin: 15px;
 }
+
 div.search_input{
-  margin: 20px;
+ margin: 15px;
 }
+
 .wide-margin{
   margin: 150px;
 }
+
+div.login_area{
+  margin-left: 450px;
+  }
 /* div.top_menu ul.menu_style, div.top_menu div.login_area{
   margin: 150px;
 } */
@@ -116,16 +131,34 @@ div.footer{
 	flex-direction:row;
 	align-items : flex-start;
 	align-content:flex-start;
-  width: 100%
+  width: 100%;
+  border-top: 1px solid #E8E9EB;
+  margin-top: 40px;
+  padding-top: 40px;
+  position: absolute;
+  justify-content: space-between;
+  font-size: 14px;
+
+
 	/* height: 100% */
   /* display: flex;
   flex-direction: row;
   align-items: flex-start; */
 }
+
+div.footer-logo{
+  fill: #959DA5;
+}
+
 div.footer ul li{
   display: inline;
-  padding: 20px;
+  padding-top: 40px;
+  margin-right: 10px;
+
 }
+
+a:link {text-decoration: none;}
+a:hover {color: blue; text-decoration: underline;}
 
 
 
