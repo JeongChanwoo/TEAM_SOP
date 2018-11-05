@@ -1,0 +1,148 @@
+body {
+  position: relative;
+  left : 0px;
+  top : 0;
+  width : 100%
+  height : 100%
+  margin : 0;
+  padding: 0;
+}
+/* 헤드 */
+div.header{
+  display: flex;
+	flex-direction:row;
+	align-items : flex-start;
+	align-content:flex-start;
+  height : 10%;
+  width : 100%;
+  text-align: : center;
+	/* height: 100% */
+}
+div.top_menu ul li{
+  display: inline;
+  padding: 10px;
+}
+div.search_button{
+  margin: 20px;
+}
+div.search_input{
+  margin: 20px;
+}
+.wide-margin{
+  margin: 150px;
+}
+/* div.top_menu ul.menu_style, div.top_menu div.login_area{
+  margin: 150px;
+} */
+
+
+/* 메인 */
+div.main{
+  display: flex;
+	flex-direction:row;
+	align-items : flex-start;
+	align-content:flex-start;
+}
+/* 상단 */
+div.user_menu tr th{
+  display: inline;
+  padding: 40px;
+}
+div.user_status{
+  background-color : #F5F5F5;
+}
+/* 리스트 부분 */
+
+table.repo_list_content{
+  width: 100%;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+div.repository_list td{
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+  /* background-color: #F5F5F5 */
+
+}
+
+div.repository_list tr td.left{
+  text-align: left;
+  width: 40%;
+  /* color: #FCA205; */
+}
+div.repository_list tr td.center{
+  text-align: left;
+  /* color: #FCA205; */
+  width: 30%;
+}
+div.repository_list tr td.right{
+  text-align: right;
+  /* color: #FCA205; */
+  width: 30%;
+}
+div.repository_list tr.repo_upper_move{
+  background-color : #90B1D2;
+}
+div.repository_list tr.repo_user_status{
+  background-color : #F5F5F5;
+}
+div.repository_list tr.repo_branch_status{
+  background-color : #F5F5F5;
+}
+/* 콘텐츠 부분 */
+div.main_contents{
+  width: 100%;
+  height: 20%;
+  border : 1px solid #444444
+}
+div.content_show div.content_head{
+  border : 0.5px solid #444444;
+  background-color : #F5F5F5;
+
+  padding: 10px;
+}
+div.main_contents div.content{
+  border : 1px solid #444444
+  width : 100%;
+  height: 100%;
+}
+
+
+
+/* 바닥 */
+div.footer{
+  display: flex;
+	flex-direction:row;
+	align-items : flex-start;
+	align-content:flex-start;
+  width: 100%
+	/* height: 100% */
+  /* display: flex;
+  flex-direction: row;
+  align-items: flex-start; */
+}
+div.footer ul li{
+  display: inline;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+* {
+	/* TODO: 어떤 코드가 들어가야 할까요? */
+}
+
+html {
+	/* TODO: 어떤 코드가 들어가야 할까요? */
+}
+
+body {
+	/* TODO: 어떤 코드가 들어가야 할까요? */
+}
+
+/* TODO: 또 어떤 코드들이 들어가야 할까요? */
