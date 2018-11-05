@@ -37,6 +37,7 @@ div.search_button{
 
 div.search_input{
  margin: 15px;
+
 }
 
 .wide-margin{
@@ -45,7 +46,7 @@ div.search_input{
 
 div.login_area{
   margin-left: 450px;
-
+  margin-top: -35px;
   }
 
 
@@ -137,7 +138,7 @@ div.footer{
   width: 100%;
   border-top: 1px solid #E8E9EB;
   margin-top: 40px;
-  padding-top: 40px;
+  padding-top: 30px;
   position: absolute;
   justify-content: space-between;
   font-size: 14px;
