@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/git_page.css">
     <title></title>
   </head>
   <body>
@@ -31,15 +32,15 @@
           <input type = "button" name="btn2" value="Sign in">
        </div>
     </div>
-
+    </div>
     <div class = "main">
       <div class = "center">
         <div class = "main head">
           <!-- 지웅 main head 작성 영역 -->
-          <div class="Ryu_user">
-            <header class="Ryu_user name"> <p>KnowRe web development curriculum for noobs</p> </header>
-            <div class="Ryu_user status">
-              <table class="Ryu_user 4 content">
+          <div class="user_menu">
+            <header class="user_name"> <p>KnowRe web development curriculum for noobs</p> </header>
+            <div class="user_status">
+              <table class="user_content">
                 <tr>
                   <th>
                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
@@ -60,66 +61,104 @@
                 </tr>
               </table>
 
-              <div class="Ryu_user down box">
+              <div class="user_down_box">
                   <!--  yellow box-->
               </div>
             </div>
           </div>
-          <div class="Ryu_name">
-            <div class="Ryu_name left first button">
+          <div class="user_inform">
+            <div class="transaction_button">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M5 12H4c-.27-.02-.48-.11-.69-.31-.21-.2-.3-.42-.31-.69V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V11c.03.78.34 1.47.94 2.06.6.59 1.28.91 2.06.94h1v2l3-3-3-3v2zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm11 9.48V5c-.03-.78-.34-1.47-.94-2.06-.6-.59-1.28-.91-2.06-.94H9V0L6 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 12 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
             </div>
-            <div class="Ryu_name left second button">Branch:2016
+            <div class="branch_button">Branch:2016
             </div>
             <h2><a href="">WebDevCurriculum</a>/+</h2>
-            <div class="Ryu_name right button">
+            <div class="list_button">
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M2 13c0 .59 0 1-.59 1H.59C0 14 0 13.59 0 13c0-.59 0-1 .59-1h.81c.59 0 .59.41.59 1H2zm2.59-9h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1H4.59C4 2 4 2.41 4 3c0 .59 0 1 .59 1zM1.41 7H.59C0 7 0 7.41 0 8c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0-5H.59C0 2 0 2.41 0 3c0 .59 0 1 .59 1h.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm10 5H4.59C4 7 4 7.41 4 8c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01zm0 5H4.59C4 12 4 12.41 4 13c0 .59 0 1 .59 1h6.81c.59 0 .59-.41.59-1 0-.59 0-1-.59-1h.01z"/></svg>
             </div>
           </div>
-          <div class="Ryu_commit inform">
+          <div class="branch_inform">
             This branch is 5 commits ahead of master.
-            <div class="Ryu_commit right button">
+            <div class="request_button">
                   <a href="">Pull request</a>
                   <a href="">Compare</a>
             </div>
           </div>
         </div>
 
-        <div class = "main list">
+        <div class = "main_list">
           <!-- 찬우 main list 작성 영역 -->
-          <div class = "repository list">
-            <p>
-              <span class = left list><img id="folder icon" dir="/"></img>Part 0.git/<a href = '/'>Quest 0. Hello, git</a></span>
-              <span class = center list>Quest 0 - Added checklist</span>
-              <span class = right list>19 hours ago</span>
-            </p>
-            <p>
-              <span class = left list><img id="folder icon" dir="/"></img><a href = '/'>old</a></span>
-              <span class = center list>New curriculum 2016 - started</span>
-              <span class = right list>5 days ago</span>
-            </p>
-            <p class = "active">
-              <span class = left list><img id="file icon" dir="/"></img><a href = '/'>LICENSE</a></span>
-              <span class = center list>New curriculum 2016 - started</span>
-              <span class = right list>5 days ago</span>
-            </p>
-            <p>
-              <span class = left list><img id="file icon" dir="/"></img><a href = '/'>README.md</a></span>
-              <span class = center list>...</span>
-              <span class = right list>19 hours ago</span>
-            </p>
+          <div class = "repository_list">
+            <table class="repo_list_content">
+              <tr class = "repo_branch_status">
+                <td class = "left">This branch is 5 commits ahead of mater.</td>
+                <td class = "center"> </td>
+                <td class = "right">
+                  <svg class="left" xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M 11 11.28 V 5 c -0.03 -0.78 -0.34 -1.47 -0.94 -2.06 C 9.46 2.35 8.78 2.03 8 2 H 7 V 0 L 4 3 l 3 3 V 4 h 1 c 0.27 0.02 0.48 0.11 0.69 0.31 c 0.21 0.2 0.3 0.42 0.31 0.69 v 6.28 A 1.993 1.993 0 0 0 10 15 a 1.993 1.993 0 0 0 1 -3.72 Z m -1 2.92 c -0.66 0 -1.2 -0.55 -1.2 -1.2 c 0 -0.65 0.55 -1.2 1.2 -1.2 c 0.65 0 1.2 0.55 1.2 1.2 c 0 0.65 -0.55 1.2 -1.2 1.2 Z M 4 3 c 0 -1.11 -0.89 -2 -2 -2 a 1.993 1.993 0 0 0 -1 3.72 v 6.56 A 1.993 1.993 0 0 0 2 15 a 1.993 1.993 0 0 0 1 -3.72 V 4.72 c 0.59 -0.34 1 -0.98 1 -1.72 Z m -0.8 10 c 0 0.66 -0.55 1.2 -1.2 1.2 c -0.65 0 -1.2 -0.55 -1.2 -1.2 c 0 -0.65 0.55 -1.2 1.2 -1.2 c 0.65 0 1.2 0.55 1.2 1.2 Z M 2 4.2 C 1.34 4.2 0.8 3.65 0.8 3 c 0 -0.65 0.55 -1.2 1.2 -1.2 c 0.65 0 1.2 0.55 1.2 1.2 c 0 0.65 -0.55 1.2 -1.2 1.2 Z"/></svg>Pull request
+
+                  <svg class="right"xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M 6 7 h 2 v 1 H 6 v 2 H 5 V 8 H 3 V 7 h 2 V 5 h 1 v 2 Z m -3 6 h 5 v -1 H 3 v 1 Z M 7.5 2 L 11 5.5 V 15 c 0 0.55 -0.45 1 -1 1 H 1 c -0.55 0 -1 -0.45 -1 -1 V 3 c 0 -0.55 0.45 -1 1 -1 h 6.5 Z M 10 6 L 7 3 H 1 v 12 h 9 V 6 Z M 8.5 0 H 3 v 1 h 5 l 4 4 v 8 h 1 V 4.5 L 8.5 0 Z"/></svg>Compare
+                </td>
+              </tr>
+              <tr class = "repo_upper_move">
+                <td class = "left">...</td>
+                <td class = "center"> </td>
+                <td class = "right"> </td>
+              </tr>
+              <tr class = "repo_user_status">
+                <td class = "left"><span class = "user_id">Kivol</span> authored 19 hours ago</td>
+                <td class = "center"></td>
+                <td class = "right">latest commit 5ead7a7a36<svg class="right"xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M 2 13 h 4 v 1 H 2 v -1 Z m 5 -6 H 2 v 1 h 5 V 7 Z m 2 3 V 8 l -3 3 l 3 3 v -2 h 5 v -2 H 9 Z M 4.5 9 H 2 v 1 h 2.5 V 9 Z M 2 12 h 2.5 v -1 H 2 v 1 Z m 9 1 h 1 v 2 c -0.02 0.28 -0.11 0.52 -0.3 0.7 c -0.19 0.18 -0.42 0.28 -0.7 0.3 H 1 c -0.55 0 -1 -0.45 -1 -1 V 4 c 0 -0.55 0.45 -1 1 -1 h 3 c 0 -1.11 0.89 -2 2 -2 c 1.11 0 2 0.89 2 2 h 3 c 0.55 0 1 0.45 1 1 v 5 h -1 V 6 H 1 v 9 h 10 v -2 Z M 2 5 h 8 c 0 -0.55 -0.45 -1 -1 -1 H 8 c -0.55 0 -1 -0.45 -1 -1 s -0.45 -1 -1 -1 s -1 0.45 -1 1 s -0.45 1 -1 1 H 3 c -0.55 0 -1 0.45 -1 1 Z"/></svg></td>
+              </tr>
+              <tr class = "repo_list">
+                <td class = "left">
+                  <svg xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+                  Part 0.git
+                  <a href = '/'>Quest 0. Hello, git</a>
+                </td>
+                <td class = "center">Quest 0 - Added checklist</td>
+                <td class ="right">19 hours ago</td>
+              </tr>
+              <tr class = "repo_list">
+                <td class = "left">
+                  <svg xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+                  <a href = '/'>old</a>
+                </td>
+                <td class = "center">New curriculum 2016 - started</td>
+                <td class = "right">5 days ago</td>
+              </tr>
+              <tr class = "repo_list">
+                <td class ="left">
+                  <svg xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M 6 5 H 2 V 4 h 4 v 1 Z M 2 8 h 7 V 7 H 2 v 1 Z m 0 2 h 7 V 9 H 2 v 1 Z m 0 2 h 7 v -1 H 2 v 1 Z m 10 -7.5 V 14 c 0 0.55 -0.45 1 -1 1 H 1 c -0.55 0 -1 -0.45 -1 -1 V 2 c 0 -0.55 0.45 -1 1 -1 h 7.5 L 12 4.5 Z M 11 5 L 8 2 H 1 v 12 h 10 V 5 Z"/></svg>
+                  <a href = '/'>LICENSE</a>
+                </td>
+                <td class = "center">New curriculum 2016 - started</td>
+                <td class = "right">5 days ago</td>
+              </tr>
+              <tr class = "repo_list">
+                <td class = "left">
+                  <svg xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M 6 5 H 2 V 4 h 4 v 1 Z M 2 8 h 7 V 7 H 2 v 1 Z m 0 2 h 7 V 9 H 2 v 1 Z m 0 2 h 7 v -1 H 2 v 1 Z m 10 -7.5 V 14 c 0 0.55 -0.45 1 -1 1 H 1 c -0.55 0 -1 -0.45 -1 -1 V 2 c 0 -0.55 0.45 -1 1 -1 h 7.5 L 12 4.5 Z M 11 5 L 8 2 H 1 v 12 h 10 V 5 Z"/></svg>
+                  <a href = '/'>README.md</a>
+                </td>
+                <td class = "center">...</td>
+                <td class = "right">19 hours ago</td>
+              </tr>
+            </table>
           </div>
         </div>
-        <div class = "main contents">
+        <div class = "main_contents">
           <!-- 찬우 main contents 작성 영역 -->
-  				<div class = "content show">
-  					<p class = "content head"><img id ="markdown icon" dir="/">README.md</img></p>
-  					<p class = "content">KnowRe web devlopment curriculum</br>2016</p>
+  				<div class = "content_show">
+            <div class = "content_head">
+              <svg xmlns="http://www.w3.org/2000/svg" width = "14" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M 3 5 h 4 v 1 H 3 V 5 Z m 0 3 h 4 V 7 H 3 v 1 Z m 0 2 h 4 V 9 H 3 v 1 Z m 11 -5 h -4 v 1 h 4 V 5 Z m 0 2 h -4 v 1 h 4 V 7 Z m 0 2 h -4 v 1 h 4 V 9 Z m 2 -6 v 9 c 0 0.55 -0.45 1 -1 1 H 9.5 l -1 1 l -1 -1 H 2 c -0.55 0 -1 -0.45 -1 -1 V 3 c 0 -0.55 0.45 -1 1 -1 h 5.5 l 1 1 l 1 -1 H 15 c 0.55 0 1 0.45 1 1 Z m -8 0.5 L 7.5 3 H 2 v 9 h 6 V 3.5 Z m 7 -0.5 H 9.5 l -0.5 0.5 V 12 h 6 V 3 Z"/><strong>README.md</strong></svg>
+            </div>
+            <div class = "content">
+              <h1>KnowRe web devlopment curriculum</br>2016<h1>
+            </div>
   				</div>
         </div>
       </div>
 
-      <div class = "side bar">
+      <div class = "side_bar">
         <!-- 소연 side bar 파트 작성 영역 -->
         <table class = "top_table">
           <div class = "code_activity">
@@ -181,7 +220,7 @@
 
           </table>
 
-          <p class = middle_info>You can clone with <a href='/'>HTTPS</a> or <a href='/'>Subversion.</a>
+          <p class = middle_info>You can clone with <a href='/'>HTTPS</a> or</br> <a href='/'>Subversion.</a>
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
 
         <div class = bottom>
@@ -194,6 +233,7 @@
       </div>
 
     </div>
+  </div>
 
     <div class = "footer">
       <!-- 지혜 footer 파트 작성 영역  -->
