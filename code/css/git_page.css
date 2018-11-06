@@ -6,6 +6,8 @@ body {
   height : 100%
   margin : 0;
   padding: 0;
+  font-family: sans-serif;
+
 }
 /* 헤드 */
 div.header{
@@ -33,21 +35,57 @@ div.top_menu ul li{
 
 div.search_button{
  margin: 15px;
+ margin-left: 6px;
 }
+
+.repo-btn{
+  width: 105px;
+  height: 25px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 3px;
+}
+
 
 div.search_input{
  margin: 15px;
+}
 
+
+div.login_area{
+  margin-left: 450px;
+  margin-top: -35px;
+  position: relative;
+  }
+
+.btn1{
+  width: 70px;
+  height: 30px;
+  background-color: #66B74A;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  outline-color: none;
+  }
+
+.btn2{
+  width: 70px;
+  height: 30px;
+  background-color: lightgrey;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 3px;
+  outline-color: none;
+  align-self: center;
 }
 
 .wide-margin{
   margin: 150px;
 }
 
-div.login_area{
-  margin-left: 450px;
-  margin-top: -35px;
-  }
+
 
 
 /* div.top_menu ul.menu_style, div.top_menu div.login_area{
@@ -137,11 +175,12 @@ div.footer{
 	align-content:flex-start;
   width: 100%;
   border-top: 1px solid #E8E9EB;
-  margin-top: 40px;
+  margin-top: 80px;
+  margin-left: 0px;
   padding-top: 30px;
   position: absolute;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 13px;
 
 
 	/* height: 100% */
@@ -158,7 +197,10 @@ div.footer ul li{
   display: inline;
   padding-top: 40px;
   margin-right: 10px;
+}
 
+.list_style{
+  margin-left: -40px;
 }
 
 a:link {text-decoration: none;}
