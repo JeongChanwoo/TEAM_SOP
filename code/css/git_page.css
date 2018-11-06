@@ -29,8 +29,15 @@ div.header-logo{
 
 div.top_menu ul li{
   display: inline;
-  padding: 10px;
+  padding: 5px;
   font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  top: 5px;
+}
+
+.menu_style{
+  margin-left: -40px;
 }
 
 div.search_button{
@@ -52,33 +59,39 @@ div.search_input{
 }
 
 
-div.login_area{
-  margin-left: 450px;
+div.login_area {
+  margin-left: 360px;
   margin-top: -35px;
-  position: relative;
+  float: left;
+
   }
 
 .btn1{
   width: 70px;
-  height: 30px;
+  height: 35px;
   background-color: #66B74A;
   color: white;
   font-weight: bold;
-  border: none;
+  border: 1.5px solid #64A853;
   border-radius: 3px;
   outline-color: none;
+  position: absolute;
+  top: 10px;
   }
 
 .btn2{
   width: 70px;
-  height: 30px;
+  height: 35px;
   background-color: lightgrey;
-  border: none;
+  border: 1.5px solid #A5A5A5;
   color: black;
   font-weight: bold;
   border-radius: 3px;
   outline-color: none;
   align-self: center;
+  position: absolute;
+  left: 875px;
+  top: 10px;
 }
 
 .wide-margin{
@@ -88,7 +101,7 @@ div.login_area{
 
 
 
-/* div.top_menu ul.menu_style, div.top_menu div.login_area{
+/* div.top_menu ul.menu_style, div.top_menu{
   margin: 150px;
 } */
 
