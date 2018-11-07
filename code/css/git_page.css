@@ -362,22 +362,31 @@ a:hover {color: blue; text-decoration: underline;}
   box-shadow: inset 0 0 10px #A4A4A4;
 }
 .bottom_clone{
-  width:100%;
-    height:4%;
-  border-radius: 3px;
-  box-shadow: inset 0 0 10px #A4A4A4;
+  width: 100%;
+  height: 5%;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px #A4A4A4;
+  background-color: #FAFAFA;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 5px;
 }
+
 .bottom_zip{
-  width:100%;
-  height:4%;
-  border-radius: 3px;
-  box-shadow: inset 0 0 10px #A4A4A4;
+  width: 100%;
+  height: 5%;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px #A4A4A4;
+  background-color: #FAFAFA;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 5px;
 }
+
 .table_middle tr th.number{
 
   border-radius:100px;
   background-color: #E6E6E6;
-
   text-align: center;
 }
 
