@@ -218,6 +218,8 @@ div.footer ul li{
 
 a:link {text-decoration: none;}
 a:hover {color: blue; text-decoration: underline;}
+
+/* 사이드 바 부분 */
 .code_activity{
   width:100%;
   box-shadow: inset 0px 8px 10px -10px #A4A4A4;
