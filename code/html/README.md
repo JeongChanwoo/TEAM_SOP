@@ -12,6 +12,11 @@
       - ul (menu_style)
         - li (header_menu)
     - div class (login_area)
+- ueser head(지웅)
+  - div class (user_head)
+    - div class (main_sub)
+      - div class (sub_name)
+      - div class (sub_inform)
 
 - main
   - center
