@@ -6,7 +6,7 @@
 - header(지혜)
    - div class (header)
     - div class (header-logo)
-    - div class (searchBar)
+    - div class (search-group)
     - div class (top_menu)
       - ul (menu_style)
         - li (header_menu)

@@ -42,15 +42,15 @@ div.top_menu ul li{
   margin-left: -40px;
 }
 
-div.searchBar{
+div.search-group{
   margin: 10px;
 }
 
-input[class="temp1"]{
+input[class="search-box"]{
   padding-left: 120px;
 }
 
-.temp1 {
+.search-box {
   width: 400px;
   height: 35px;
   margin-right: 10px;
@@ -59,13 +59,13 @@ input[class="temp1"]{
   font-size: 14px;
 }
 
-.temp2 {
+.search-btn {
   width: 105px;
   height: 25px;
   background-color: ligthgrey;
   border-radius: 3px;
   border: none;
-  
+
 }
 
 
@@ -337,6 +337,7 @@ div.footer ul li{
   display: inline;
   padding-top: 40px;
   margin-right: 10px;
+  position:
 }
 
 .list_style{
