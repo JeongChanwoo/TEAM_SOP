@@ -15,7 +15,7 @@ div.header{
 	flex-direction:row;
 	align-items : flex-start;
 	align-content:flex-start;
-  height : 6%;
+  height : 8%;
   width : 100%;
   text-align: : center;
   background-color: #EDF0F3;
@@ -61,7 +61,7 @@ input[class="search-box"]{
 
 .search-btn {
   width: 105px;
-  height: 25px;
+  height: 28px;
   background-color: ligthgrey;
   border-radius: 3px;
   border: none;
@@ -70,7 +70,7 @@ input[class="search-box"]{
 
 
 div.login_area {
-  margin-left: 380px;
+  margin-left: 450px;
   float: left;
   }
 
@@ -84,8 +84,8 @@ div.login_area {
   border-radius: 3px;
   outline-color: none;
   position: absolute;
-  left: 900px;
-  top: 10px;
+  left: 980px;
+  top: 13px;
   }
 
 .btn2{
@@ -99,8 +99,8 @@ div.login_area {
   outline-color: none;
   align-self: center;
   position: absolute;
-  left: 980px;
-  top: 10px;
+  left: 1060px;
+  top: 13px;
 
 
 }
